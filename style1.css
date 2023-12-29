@@ -1,0 +1,151 @@
+.team .serv-content .card {
+  width: calc(28% - 20px);
+  height:300px;
+  background: #222;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.team .serv-content .card a {
+  display: inline-block;
+  background: linear-gradient(135deg, #2278ea, #1dd2cc);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin-top: 15px;
+  border-radius: 6px;
+  border: 2px solid #1e3551;
+  transition: all 0.3s ease;
+}
+
+.team .serv-content .card a:hover {
+  color: #88aad4;
+  background: none;
+  animation: pulsate 1s ease-in-out;
+}
+@keyframes progressAnimation {
+  from {
+    width: 0;
+  }
+}
+
+.skills .skills-content .right .line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #1e3551;
+  animation: progressAnimation 2s ease-in-out; /* Adjust the duration and timing function as needed */
+}
+
+.skills-content .right .python::before {
+  width: 90%;
+  animation: progressAnimationPython 2s ease-in-out; /* Add this line for Python bar */
+}
+  .skills {
+    background: radial-gradient(#e1efff, white);
+  }
+  .skills .title::after {
+    content: "—What I Know ?—";
+  }
+  .skills .skills-content .column {
+    width: calc(50% - 30px);
+  }
+  .skills .skills-content .left .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .skills .skills-content .left p {
+    text-align: justify;
+  }
+  .skills .skills-content .left a {
+    display: inline-block;
+    background: #1e3551;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #1e3551;
+    transition: all 0.3s ease;
+  }
+  
+  .skills .skills-content .left a:hover {
+    color: #1e3551;
+    background: none;
+    animation: pulsate 1s ease-in-out;
+  }
+  
+  .intern,
+  .project {
+    list-style: none;
+  }
+  
+  .intern::before,
+  .project::before {
+    content: "✪ ";
+    color: #1e3551;
+  }
+  
+  .skills .skills-content .right .bars {
+    margin-bottom: 15px;
+  }
+  
+  .skills .skills-content .right .info {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .skills .skills-content .right span {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .skills .skills-content .right .line {
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+  }
+  
+  .skills .skills-content .right .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #1e3551;
+  }
+  
+  .skills-content .right .python::before {
+    width: 90%;
+  }
+  
+  .skills-content .right .html::before {
+    width: 80%;
+  }
+  
+  .skills-content .right .css::before {
+    width: 60%;
+  }
+  
+  .skills-content .right .js::before {
+    width: 40%;
+  }
+  
+  .skills-content .right .bootstraps::before {
+    width: 60%;
+  }
+  
+  .skills-content .right .django::before {
+    width: 70%;
+  }
+ 
